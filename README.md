@@ -1,35 +1,29 @@
-## Greetings
-
-> 안녕하세요!
->
-> 관심을 가지고 지원해 주셔서 진심으로 감사드립니다.  
-> 저희는 여러분의 귀중한 시간을 소중히 여기며,  
-> 이 과제를 통해 여러분의 멋진 실력을 확인할 수 있기를 기대하고 있습니다.  
-> 과제 수행 과정이 여러분에게도 의미있는 경험이 되기를 바라며,  
-> 최선을 다해 주시면 감사하겠습니다.
->
-> 여러분의 노력에 감사드리며,  
-> 좋은 결과로 만날 수 있기를 고대합니다!
->
-> 감사합니다. ૮꒰ྀི ⸝⸝• ·̫ •⸝⸝ ꒱ྀིა  
-
 # Vijob 클론 코딩 과제
 
-이 저장소는 **Vijob** 웹사이트의 '홈' 페이지와 '일자리 상세' 페이지를 클론 코딩을 위한 기본 프로젝트입니다.
-이 저장소를 포크하여, 아래의 요구사항에 따라 작업을 진행해 주세요.
-* Vijob 웹 사이트 : https://app.vijob.net
+## 실행
+```node
+> npm i
+> npm run dev
+```
 
-## 프로젝트 구조
+## 참고사항 (임시)
+- ListMockup.tsx 는 목업 데이터로 인피니티 스크롤
+- ListInfiniteQuery.tsx 는 InfiniteQuery 를 이용한 인피니티 스크롤
+=> supabase 디비 연결, next server api 사용.
+=> supabase 디비 공유 - 패스워드 1234
+- Storybook은 직접 관리중인 snow-white-ui 사용 https://www.npmjs.com/package/snow-white-ui
 
-- **ReactJS/NextJS** 기반 프로젝트 생성
-- **TypeScript** 사용 권장
+### style
+main은 module을 쓰고 작성할 css 속성이 3개 이하인것들만 tailwind를 쓰고 있습니다.
+tailwind.config.js에는 tailwind의 기본 rem단위를 px로 바꿔서 사용중입니다. 
 
 ## 세부 요구사항
 
 ### 1. 홈 페이지
 
-- 카드 목록에 **Infinite Scroll** 기능 적용
-- 상세 페이지로 이동 후 돌아왔을 때, **목록 상태 유지**
+- 카드 목록에 **Infinite Scroll** 기능 적용 [o]
+  - ListMockup.tsx 는 목업 데이터로 인피니티 스크롤, ListInfiniteQuery.tsx 는 InfiniteQuery 를 이용한 인피니티 스크롤. 2가지 경우를 만들어봤습니다. 
+- 상세 페이지로 이동 후 돌아왔을 때, **목록 상태 유지** [o]
 - **Mock 데이터**를 사용하여 API 요청을 대체
 
 ### 2. 다국어 지원
@@ -39,7 +33,8 @@
 
 ## 3. 테스트 코드
 
-- **Storybook**을 사용하여 UI 컴포넌트 작성 (가능한 선에서 2개 정도)
+- **Storybook**을 사용하여 UI 컴포넌트 작성 (가능한 선에서 2개 정도) 
+  
 - **Jest**를 이용하여 **테스트 코드** 작성 (Given-When-Then 패턴) (가능한 선에서 2개 정도)
 
 ## 추가 요청 사항
