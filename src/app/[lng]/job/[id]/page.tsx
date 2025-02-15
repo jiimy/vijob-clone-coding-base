@@ -1,13 +1,13 @@
+'use client';
 // pages/job/[id].tsx
-import { useLang } from '@/context/LanguageContext';
 // import { useRouter } from 'next/router';
 import { useParams } from 'next/navigation';
 
 const JobDetail = () => {
-  const params = useParams<{ id: string }>();
-  const { lang } = useLang();
+  const params = useParams();
   // const router = useRouter();
   // const { id } = router.query;
+  console.log('job detail: ', params);
 
   return (
     <div>

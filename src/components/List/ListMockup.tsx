@@ -1,19 +1,25 @@
 'use client';
-import { mockData, mockData2 } from '@/data/mockData';
+import { mockData, MockDataType } from '@/data/mockData';
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { CardItem } from 'snow-white-ui';
 import s from './list.module.scss';
+import { useLanguage } from '@/context/LanguageContext';
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import useScrollResotration from '@/hooks/useScrollResotration';
 
 const ITEMS_PER_PAGE = 10;
 
 const ListMockup = () => {
-  const [items, setItems] = useState(mockData2.slice(0, ITEMS_PER_PAGE));
+  const [items, setItems] = useState(mockData.slice(0, ITEMS_PER_PAGE));
   const [hasMore, setHasMore] = useState(true);
   const listRef = useRef<HTMLDivElement>(null);
+  const { language } = useLanguage();
+  const router = useRouter();
 
   const loadMoreItems = useCallback(() => {
     setItems((prevItems) => {
-      const newItems = mockData2.slice(prevItems.length, prevItems.length + ITEMS_PER_PAGE);
+      const newItems = mockData.slice(prevItems.length, prevItems.length + ITEMS_PER_PAGE);
       if (newItems.length === 0) {
         setHasMore(false);
       }
@@ -22,16 +28,16 @@ const ListMockup = () => {
   }, []);
 
   useEffect(() => {
+    const listRefCurrent = listRef.current;
     const handleScroll = () => {
-      if (listRef.current) {
-        const { scrollTop, scrollHeight, clientHeight } = listRef.current;
+      if (listRefCurrent) {
+        const { scrollTop, scrollHeight, clientHeight } = listRefCurrent;
         if (scrollTop + clientHeight >= scrollHeight - 5 && hasMore) {
           loadMoreItems();
         }
       }
     };
 
-    const listRefCurrent = listRef.current;
     if (listRefCurrent) {
       listRefCurrent.addEventListener('scroll', handleScroll);
     }
@@ -43,14 +49,23 @@ const ListMockup = () => {
     };
   }, [loadMoreItems, hasMore]);
 
+  const onLink = (index: number) => {
+    router.push(`/${language}/job/${index}`, { scroll: false });
+  }
+
   return (
-    <div ref={listRef} style={{ height: '500px', overflowY: 'auto' }}>
-      {items.map((item: { title: string; content: { ko: string; en: string } }, index: number) => (
-        <div key={index}>
-          <CardItem >
+    <div ref={listRef} className={s.list}>
+      {items.map((item: MockDataType, index: number) => (
+        // <Link key={index} href={`/${language}/job/${index}`}>
+        <div key={index} onClick={() => onLink(index)}>
+          <CardItem>
             <CardItem.ItemTitle>{item.title}</CardItem.ItemTitle>
-            <CardItem.ItemContent>{item.content['ko']}</CardItem.ItemContent>
+            <CardItem.ItemContent>{item.content[language]}</CardItem.ItemContent>
+            <CardItem.ItemSchedule>{item.schedule[language]}</CardItem.ItemSchedule>
+            <CardItem.ItemPay>{item.pay[language]}</CardItem.ItemPay>
+            <CardItem.ItemRecruit>{item.recruit[language]}</CardItem.ItemRecruit>
           </CardItem>
+          <span>프로필</span>
         </div>
       ))
       }

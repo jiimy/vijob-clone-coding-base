@@ -1,12 +1,32 @@
 // mockData.ts
-export const mockData = Array.from({ length: 100 }).map((_, index) => ({
+export const mockDataTest = Array.from({ length: 100 }).map((_, index) => ({
   id: index + 1,
   title: `Item ${index + 1}`,
   description: `Description for item ${index + 1}`,
 }));
 
+export type MockDataType = {
+  title: string;
+  content: {
+    ko: string;
+    en: string;
+  };
+  schedule: {
+    ko: string;
+    en: string;
+  };
+  pay: {
+    ko: string;
+    en: string;
+  };
+  recruit: {
+    ko: string;
+    en: string;
+  };
+};
 
-export const mockData2 = [
+
+export const mockData = [
   {
     title: "sk매직 은행지국",
     content: {

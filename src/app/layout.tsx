@@ -1,23 +1,17 @@
-import { LangProvider } from '@/context/LanguageContext';
-import './globals.css';
-import Head from './head';
-import './layout.scss';
+import { ReactNode } from "react";
+import Head from "./head";
+interface RootLayoutProps {
+  children: ReactNode;
+}
 
-export default function RootLayout({
-  children
-}: {
-  children: React.ReactNode,
-}) {
+export default function RootLayout({ children }: RootLayoutProps) {
+
   return (
     <html lang="ko">
       <Head />
       <body>
-        <LangProvider>
-          <div className="page">
-            {children}
-          </div>
-        </LangProvider>
+        {children}
       </body>
     </html>
-  )
+  );
 }

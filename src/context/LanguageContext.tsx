@@ -1,36 +1,41 @@
 'use client';
-import React, { createContext, useState, useContext, ReactNode } from 'react';
-import { useRouter, usePathname } from 'next/navigation'
+import React, { createContext, useContext, useState, ReactNode } from 'react';
 
-type LangContextType = {
-  lang: string;
-  setLang: (lang: string) => void;
+type language = 'ko' | 'en';
+interface LanguageContextType {
+  language: language;
+  toggleLanguage: () => void;
+  setLanguage: React.Dispatch<React.SetStateAction<'ko' | 'en'>>;
 };
 
-const LangContext = createContext<LangContextType | undefined>(undefined);
+// const LanguageContext = createContext<LanguageContextType>({
+//   language: 'ko',
+//   toggleLanguage: () => { },
+//   setLanguage: () => { },
+// });
 
-export const LangProvider = ({ children }: { children: ReactNode }) => {
-  const [lang, setLang] = useState<string>('ko'); // 기본 언어 'ko'로 설정
-  const router = useRouter();
-  const pathname = usePathname();
+const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
-  // 언어를 변경하고 URL도 업데이트
-  const changeLang = (newLang: string) => {
-    router.push(`/${newLang}${pathname.split('/').slice(2).join('/')}`);
+export const LanguageProvider = ({ children, initialLanguage }: { children: ReactNode, initialLanguage: string }) => {
+  // const [language, setLanguage] = useState<string>('ko');
+  const [language, setLanguage] = useState<language>(initialLanguage === 'ko' || initialLanguage === 'en' ? initialLanguage : 'ko');
+
+  const toggleLanguage = () => {
+    const newLanguage = language === 'ko' ? 'en' : 'ko';
+    setLanguage(newLanguage);
   };
 
   return (
-    <LangContext.Provider value={{ lang, setLang: changeLang }}>
+    <LanguageContext.Provider value={{ language, toggleLanguage, setLanguage }}>
       {children}
-    </LangContext.Provider>
+    </LanguageContext.Provider>
   );
 };
 
-// LangContext 사용 hook
-export const useLang = () => {
-  const context = useContext(LangContext);
+export const useLanguage = () => {
+  const context = useContext(LanguageContext);
   if (!context) {
-    throw new Error('useLang must be used within a LangProvider');
+    throw new Error('useLanguage must be used within a LanguageProvider');
   }
   return context;
 };

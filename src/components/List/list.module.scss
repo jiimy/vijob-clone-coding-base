@@ -1,4 +1,9 @@
 .list {
-  display: flex;
-  
+  display: grid;
+  padding: 4px 16px 0 16px;
+  overflow: auto;
+  grid-template-columns: repeat(2,minmax(160px, 1fr));
+  gap: 25px 5px;
+  text-align: left;
+  // @include scroll-hide();
 }

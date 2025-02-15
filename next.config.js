@@ -7,20 +7,20 @@ const nextConfig = {
   reactStrictMode: false,
   swcMinify: true,
   images: { unoptimized: true },
-  i18n: {
-    locales: ["en", "ko"],
-    defaultLocale: "ko",
-    localeDetection: false,
-  },
-  async redirects() {
-    return [
-      {
-        source: "/",
-        destination: "/job",
-        permanent: false,
-      },
-    ];
-  },
+  // i18n: {
+  //   locales: ["en", "ko"],
+  //   defaultLocale: "ko",
+  //   localeDetection: false,
+  // },
+  // async redirects() {
+  //   return [
+  //     {
+  //       source: "/",
+  //       destination: "/job",
+  //       permanent: false,
+  //     },
+  //   ];
+  // },
   sassOptions: {
     includePaths: [path.join(__dirname, "assets/styles")],
     prependData: `@import "_mixins.scss"; @import "_variables";`,
