@@ -11,16 +11,19 @@
 - ListInfiniteQuery.tsx 는 InfiniteQuery 를 이용한 인피니티 스크롤
 => supabase 디비 연결, next server api 사용.
 => supabase 디비 공유 - 패스워드 1234
+
 - Storybook은 직접 관리중인 snow-white-ui 사용 https://www.npmjs.com/package/snow-white-ui
 
+- 메인의 logo는 publick/logo/logo-vijob.black.svg와 publick/logo/logo-vijob.black.svg 가 있지만 단순히 색상만 변경되는 것이기에 components/icon 에서 컴포넌트로 분리하여 기본값을 white를 가지고 색변경이 용이하게 수정했습니다.
+
+
+
 ### style
-main은 module을 쓰고 작성할 css 속성이 3개 이하인것들만 tailwind를 쓰고 있습니다.
+- main은 module을 쓰고 작성할 css 속성이 3개 이하인것들만 tailwind를 쓰고 있습니다.
 tailwind.config.js에는 tailwind의 기본 rem단위를 px로 바꿔서 사용중입니다. 
 
 ## 세부 요구사항
-
 ### 1. 홈 페이지
-
 - 카드 목록에 **Infinite Scroll** 기능 적용 [o]
   - ListMockup.tsx 는 목업 데이터로 인피니티 스크롤, ListInfiniteQuery.tsx 는 InfiniteQuery 를 이용한 인피니티 스크롤. 2가지 경우를 만들어봤습니다. 
 - 상세 페이지로 이동 후 돌아왔을 때, **목록 상태 유지** [o]

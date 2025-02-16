@@ -1,4 +1,18 @@
 .bottommenu {
   display: flex;
-  height: 56px;
+  min-height: 56px;
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    font-weight: 500;
+    font-size: 12px;
+    cursor: pointer;
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
 }

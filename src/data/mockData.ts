@@ -1,9 +1,23 @@
-// mockData.ts
 export const mockDataTest = Array.from({ length: 100 }).map((_, index) => ({
   id: index + 1,
   title: `Item ${index + 1}`,
   description: `Description for item ${index + 1}`,
 }));
+
+export const mainPageText = {
+  title: {
+    ko: "이력서를 작성하고 \n 취업 경쟁력을 높이세요",
+    en: "Create a resume and \n Increase your job competitiveness",
+  },
+  comment: {
+    ko: "pdf 한 장으로 체험해보세요!",
+    en: "Experience it with one pdf page!",
+  },
+  desc: {
+    ko: "지금 바로 비잡과 함께 시작하세요",
+    en: "Start with Vijab right now",
+  },
+};
 
 export type MockDataType = {
   title: string;
@@ -24,7 +38,6 @@ export type MockDataType = {
     en: string;
   };
 };
-
 
 export const mockData = [
   {

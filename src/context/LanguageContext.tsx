@@ -1,7 +1,6 @@
 'use client';
+import { language } from '@/types/language';
 import React, { createContext, useContext, useState, ReactNode } from 'react';
-
-type language = 'ko' | 'en';
 interface LanguageContextType {
   language: language;
   toggleLanguage: () => void;

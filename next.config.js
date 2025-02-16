@@ -12,15 +12,15 @@ const nextConfig = {
   //   defaultLocale: "ko",
   //   localeDetection: false,
   // },
-  // async redirects() {
-  //   return [
-  //     {
-  //       source: "/",
-  //       destination: "/job",
-  //       permanent: false,
-  //     },
-  //   ];
-  // },
+  async redirects() {
+    return [
+      {
+        source: "/",
+        destination: "/ko/job",
+        permanent: false,
+      },
+    ];
+  },
   sassOptions: {
     includePaths: [path.join(__dirname, "assets/styles")],
     prependData: `@import "_mixins.scss"; @import "_variables";`,

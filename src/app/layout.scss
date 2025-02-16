@@ -1,6 +1,13 @@
 .main {
   display: flex;
   justify-content: center;
+  background: black;
+}
+
+.main-view {
+  max-width: 430px;
+  width: 100%;
+  color: white;
 }
 
 .mobile-view {
@@ -9,6 +16,7 @@
   max-width: 430px;
   width: 100%;
   overflow: hidden;
+  background: #f5f5f7;
   > div {
     display: flex;
     flex-direction: column;

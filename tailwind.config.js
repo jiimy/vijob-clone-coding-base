@@ -21,13 +21,16 @@ module.exports = {
       maxHeight: px0_10000,
       minHeight: px0_10000,
       height: px0_1000,
-      padding: px0_100,
+      margin: px0_1000,
+      padding: px0_1000,
       border: px0_10,
       borderRadius: px0_100,
+      text: px0_100,
       spacing: px0_100,
       backgroundColor: {
         dim: "rgba(0, 0, 0, 0.3)",
       },
+      rounded: px0_100,
       // fontFamily: {
       //   noto: ["Roboto", "pretendard", "Noto Sans KR", "sans-serif"],
       // },

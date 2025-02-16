@@ -8,7 +8,11 @@ import { useRouter } from 'next/navigation';
 
 const ITEMS_PER_PAGE = 10;
 
-const ListMockup = () => {
+type ListMockupProps = {
+  scrollEnd?: boolean; // ListMockup을 감싸는 스크롤 영역이 바닥에 닿는 여부
+}
+
+const ListMockup = ({ scrollEnd }: ListMockupProps) => {
   const [items, setItems] = useState<MockDataType[]>([]);
   const [hasMore, setHasMore] = useState(true);
   const listRef = useRef<HTMLDivElement>(null);
@@ -64,26 +68,8 @@ const ListMockup = () => {
   }, []);
 
   useEffect(() => {
-    const listRefCurrent = listRef.current;
-    const handleScroll = () => {
-      if (listRefCurrent) {
-        const { scrollTop, scrollHeight, clientHeight } = listRefCurrent;
-        if (scrollTop + clientHeight >= scrollHeight - 5 && hasMore) {
-          loadMoreItems();
-        }
-      }
-    };
-
-    if (listRef.current) {
-      listRef.current.addEventListener('scroll', handleScroll);
-    }
-
-    return () => {
-      if (listRef.current) {
-        listRef.current.removeEventListener('scroll', handleScroll);
-      }
-    };
-  }, [loadMoreItems, hasMore]);
+    loadMoreItems();
+  }, [scrollEnd])
 
   // 페이지 이동 시 스크롤 위치 저장
   const saveScrollPosition = () => {

@@ -1,4 +1,7 @@
 .header_home {
+  position: absolute;
+  top: 0;
+  width: 100%;
   backdrop-filter: blur(20px);
   background-color: rgba(rgb(247 247 250), 0.8);
   .search {
