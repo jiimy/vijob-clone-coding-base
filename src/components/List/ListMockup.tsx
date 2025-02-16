@@ -9,7 +9,7 @@ import { useRouter } from 'next/navigation';
 const ITEMS_PER_PAGE = 10;
 
 type ListMockupProps = {
-  scrollEnd?: boolean; // ListMockup을 감싸는 스크롤 영역이 바닥에 닿는 여부
+  scrollEnd?: boolean; // 상위 부모에서 스크롤이 닿았는지 넘겨주기
 }
 
 const ListMockup = ({ scrollEnd }: ListMockupProps) => {
@@ -28,27 +28,14 @@ const ListMockup = ({ scrollEnd }: ListMockupProps) => {
     return 0;
   };
 
-  const saveSessionData = (itemCount: number, scrollTop: number) => {
+  const saveSessionData = (itemCount: number) => {
     sessionStorage.setItem('itemCount', itemCount.toString());
-    sessionStorage.setItem('scrollPosition', scrollTop.toString());
   };
 
   useEffect(() => {
     const itemCount = loadItemsFromSession();
     const newItems = mockData.slice(0, itemCount + ITEMS_PER_PAGE);
     setItems(newItems);
-  }, []);
-
-  // 스크롤 위치 복원 (렌더링 후에 적용)
-  useLayoutEffect(() => {
-    const savedScrollPosition = sessionStorage.getItem('scrollPosition');
-    if (savedScrollPosition && listRef.current) {
-      setTimeout(() => {
-        if (listRef.current) {
-          listRef.current.scrollTop = parseInt(savedScrollPosition, 10);
-        }
-      }, 5);
-    }
   }, []);
 
   const loadMoreItems = useCallback(() => {
@@ -71,30 +58,12 @@ const ListMockup = ({ scrollEnd }: ListMockupProps) => {
     loadMoreItems();
   }, [scrollEnd])
 
-  // 페이지 이동 시 스크롤 위치 저장
-  const saveScrollPosition = () => {
-    if (listRef.current) {
-      sessionStorage.setItem('scrollPosition', listRef.current.scrollTop.toString());
-    }
-  };
-
-  useEffect(() => {
-    const beforeUnloadHandler = () => {
-      saveScrollPosition();
-    };
-
-    window.addEventListener('beforeunload', beforeUnloadHandler);
-
-    return () => {
-      window.removeEventListener('beforeunload', beforeUnloadHandler);
-      saveScrollPosition();
-    };
-  }, []);
 
   const onLink = (index: number) => {
-    saveScrollPosition();
+    // saveScrollPosition();
     router.push(`/${language}/job/${index}`, { scroll: false });
   };
+
 
   return (
     <div ref={listRef} className={s.list}>

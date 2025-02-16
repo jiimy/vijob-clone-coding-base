@@ -23,16 +23,32 @@ const Jobpage = () => {
     }
   }, [])
 
+  // 현재위치 스크롤 저장
   useLayoutEffect(() => {
     if (listRef.current) {
       listRef.current.addEventListener('scroll', handleScroll)
       return () => {
         if (listRef.current) {
+          sessionStorage.setItem('scrollPosition', listRef?.current?.scrollTop.toString());
           listRef.current.removeEventListener('scroll', handleScroll)
         }
       }
     }
   }, [])
+
+  // 스크롤 값 가져오기
+  useLayoutEffect(() => {
+    const savedScrollPosition = sessionStorage.getItem('scrollPosition');
+    if (savedScrollPosition && listRef.current) {
+      setTimeout(() => {
+        if (listRef.current) {
+          listRef.current.scrollTop = parseInt(savedScrollPosition, 10);
+          // console.log('세션에 있는 값: ', parseInt(savedScrollPosition, 10), listRef.current.scrollTop);
+        }
+      }, 10);
+    }
+  }, []);
+
 
   return (
     // <div>
