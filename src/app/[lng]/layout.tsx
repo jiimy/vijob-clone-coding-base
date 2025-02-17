@@ -18,8 +18,7 @@ interface RootLayoutProps {
 }
 
 export default function RootLayout({ children, params }: RootLayoutProps) {
-  // const lang = getServerCurrentLanguage(); // URL에서 언어 감지
-  console.log('root layout:', params, params.lng);
+  // console.log('root layout:', params, params.lng);
 
   const lng = params.lng as "ko" | "en";
 

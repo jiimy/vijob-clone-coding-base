@@ -57,8 +57,8 @@ const Jobpage = () => {
       <div style={{ minHeight: `var(--headerHeight)` }}></div>
       환영해요
       <div>오늘 새로 등록된 일자리 전국 <span>35</span>건</div>
-      {/* <ListMockup scrollEnd={scrollEnd} /> */}
-      <ListInfiniteQuery />
+      <ListMockup scrollEnd={scrollEnd} />
+      {/* <ListInfiniteQuery /> */}
     </div>
   );
 };
