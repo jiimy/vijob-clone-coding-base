@@ -1,3 +1,4 @@
+
 .header_home {
   position: absolute;
   top: 0;
@@ -10,4 +11,17 @@
   .area {
     height: 160px;
   }
+}
+
+.border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #d9d9d9;
+  z-index: 10;
+  animation-duration: 0.3s;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

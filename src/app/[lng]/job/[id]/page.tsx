@@ -5,9 +5,8 @@ import { useParams } from 'next/navigation';
 
 const JobDetail = () => {
   const params = useParams();
-  // const router = useRouter();
-  // const { id } = router.query;
   console.log('job detail: ', params);
+  // NOTE: reaact-query 를 이용한다면 여기에서 params.id로 추출.
 
   return (
     <div>

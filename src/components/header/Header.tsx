@@ -14,21 +14,28 @@ const Header = ({ theme }: headerProps) => {
   const [height, setHeight] = useState<number | undefined>(undefined);
   const { isScrolled } = useScrollContext();
 
-  console.log('dd', isScrolled);
-
   useEffect(() => {
     setHeight(wrapRef?.current?.clientHeight);
   }, [wrapRef?.current?.clientHeight]);
   useCssVar(`${height}px`, "--headerHeight");
 
-
-
   return (
     <header>
       {theme === 'home' &&
         <div className={s.header_home} ref={wrapRef}>
-          <div className={s.search}>검색창 및 타이틀</div>
-          <div className={s.area}>배너 및 필터</div>
+          <div className={s.title}>
+            <span>전국</span>
+            <div className={s.search}>
+            </div>
+          </div>
+          <div className={s.area}>
+            <div className={s.banner}></div>
+            <div className={s.filter}>
+              <span>필터 1</span>
+              <span>필터 2</span>
+            </div>
+          </div>
+          {isScrolled && <div className={s.border}></div>}
         </div>}
       {theme === 'detail' &&
         <div className={s.detail}>
