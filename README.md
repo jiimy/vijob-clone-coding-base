@@ -9,7 +9,7 @@
 ## 참고사항
 ### 카드 리스트
 - ListMockup.tsx 는 Mockup 데이터로 인피니티 스크롤.
-<br/>
+
 - ListInfiniteQuery.tsx 는 InfiniteQuery 를 이용한 인피니티 스크롤
   - supabase 디비 연결, next server api 사용. (검색, index 데이터 가져오기 등의 기능들을 제외하고 단순 목록 가져오기만 작업)
   - app/[lng]/(isFooter)/job/page.tsx 에서 60, 61번째 라인으로 교체하며 사용가능.
@@ -20,9 +20,9 @@
 ### ui
 - Storybook은 직접 관리중인 snow-white-ui 사용 https://www.npmjs.com/package/snow-white-ui
   - 기존 버튼에서 vijob 테마 추가, carditem 추가 해서 2개 사용했습니다. 
-<br/>
+
 - 메인의 logo는 publick/logo/logo-vijob.black.svg와 publick/logo/logo-vijob.black.svg 가 있지만 단순히 색상만 변경되는 것이기에 components/icon 에서 컴포넌트로 분리하여 기본값을 white를 가지고 색변경이 용이하게 수정.
-<br/>
+
 - ui 작업은 노가다여서 메인까지만 작업했습니다. 메인의 왼쪽 부분의 vijob AI 부분의 배경은 로티가 사용되었습니다. (lottie 컴포넌트 위치 : components/lottie/LottieContainer.tsx)
 
 
