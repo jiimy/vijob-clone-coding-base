@@ -66,8 +66,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -85,8 +85,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -123,8 +123,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -142,8 +142,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -180,8 +180,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -199,8 +199,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -237,8 +237,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -256,8 +256,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -294,8 +294,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -313,8 +313,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -351,8 +351,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -370,8 +370,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -408,8 +408,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -427,8 +427,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -465,8 +465,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -484,8 +484,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -522,8 +522,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -541,8 +541,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -579,8 +579,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -598,8 +598,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -636,8 +636,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -655,8 +655,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -693,8 +693,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -712,8 +712,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -750,8 +750,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -769,8 +769,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -807,8 +807,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -826,8 +826,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -864,8 +864,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -883,8 +883,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -921,8 +921,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -940,8 +940,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -978,8 +978,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -997,8 +997,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -1035,8 +1035,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -1054,8 +1054,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -1092,8 +1092,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -1111,8 +1111,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -1149,8 +1149,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -1168,8 +1168,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -1206,8 +1206,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -1225,8 +1225,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -1263,8 +1263,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -1282,8 +1282,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -1320,8 +1320,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -1339,8 +1339,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -1377,8 +1377,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -1396,8 +1396,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -1434,8 +1434,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -1453,8 +1453,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -1491,8 +1491,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -1510,8 +1510,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -1548,8 +1548,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -1567,8 +1567,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -1605,8 +1605,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -1624,8 +1624,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -1662,8 +1662,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -1681,8 +1681,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -1719,8 +1719,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -1738,8 +1738,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -1776,8 +1776,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -1795,8 +1795,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -1833,8 +1833,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -1852,8 +1852,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -1890,8 +1890,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -1909,8 +1909,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -1947,8 +1947,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -1966,8 +1966,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -2004,8 +2004,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -2023,8 +2023,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -2061,8 +2061,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -2080,8 +2080,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -2118,8 +2118,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -2137,8 +2137,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -2175,8 +2175,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -2194,8 +2194,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -2232,8 +2232,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -2251,8 +2251,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -2289,8 +2289,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -2308,8 +2308,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -2346,8 +2346,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -2365,8 +2365,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -2403,8 +2403,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -2422,8 +2422,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -2460,8 +2460,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -2479,8 +2479,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",
@@ -2517,8 +2517,8 @@ export const mockData = [
       en: "Assembling and selling hamburgers",
     },
     schedule: {
-      ko: "일/금/토 <br/> 10:00 ~ 22:00",
-      en: "Sun/Fri/Sat <br/> 10:00 to 22:00",
+      ko: "일/금/토 \n 10:00 ~ 22:00",
+      en: "Sun/Fri/Sat \n 10:00 to 22:00",
     },
     pay: {
       ko: "시급 9,860원",
@@ -2536,8 +2536,8 @@ export const mockData = [
       en: "a kitchen manager's job",
     },
     schedule: {
-      ko: "일/월/화/수/금/토 <br/> 09:00 ~ 20:30",
-      en: "Sun/Mon/Tue/Wed/Fri/Sat <br/> 09:00-20:30",
+      ko: "일/월/화/수/금/토 \n 09:00 ~ 20:30",
+      en: "Sun/Mon/Tue/Wed/Fri/Sat \n 09:00-20:30",
     },
     pay: {
       ko: "월급 4,000,000원",

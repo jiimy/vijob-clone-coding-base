@@ -3,6 +3,7 @@ import ListMockup from '@/components/List/ListMockup';
 import s from './jobpage.module.scss';
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react';
 import useScrollTracker from '@/hooks/useScrollTracker';
+import ListInfiniteQuery from '@/components/List/ListInfiniteQuery';
 
 const Jobpage = () => {
   const listRef = useRef<HTMLDivElement>(null);
@@ -56,7 +57,8 @@ const Jobpage = () => {
       <div style={{ minHeight: `var(--headerHeight)` }}></div>
       환영해요
       <div>오늘 새로 등록된 일자리 전국 <span>35</span>건</div>
-      <ListMockup scrollEnd={scrollEnd} />
+      {/* <ListMockup scrollEnd={scrollEnd} /> */}
+      <ListInfiniteQuery />
     </div>
   );
 };

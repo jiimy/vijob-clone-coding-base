@@ -5,6 +5,7 @@ import { CardItem } from 'snow-white-ui';
 import s from './list.module.scss';
 import { useLanguage } from '@/context/LanguageContext';
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 
 const ITEMS_PER_PAGE = 10;
 
@@ -47,7 +48,7 @@ const ListMockup = ({ scrollEnd }: ListMockupProps) => {
       const updatedItems = [...prevItems, ...newItems];
 
       if (listRef.current) {
-        saveSessionData(updatedItems.length, listRef.current.scrollTop);
+        saveSessionData(updatedItems.length);
       }
 
       return updatedItems;
@@ -60,7 +61,6 @@ const ListMockup = ({ scrollEnd }: ListMockupProps) => {
 
 
   const onLink = (index: number) => {
-    // saveScrollPosition();
     router.push(`/${language}/job/${index}`, { scroll: false });
   };
 
@@ -76,7 +76,16 @@ const ListMockup = ({ scrollEnd }: ListMockupProps) => {
             <CardItem.ItemPay>{item.pay[language]}</CardItem.ItemPay>
             <CardItem.ItemRecruit>{item.recruit[language]}</CardItem.ItemRecruit>
           </CardItem>
-          <span>프로필</span>
+          <span className={s.logo}>
+            <span className={s.imgwrap}>
+              <Image src={"https://static.vivace.theego.dev/vijob/uploads/businesses/profile-images/202502/thumbnails/xxLlQub65LZ344MykLLqubZC.png"}
+                width={36}
+                height={36}
+                alt="로고"
+              />
+            </span>
+            을지로6가
+          </span>
         </div>
       ))}
       {hasMore && <div>Loading...</div>}
